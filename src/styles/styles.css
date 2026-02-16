@@ -223,3 +223,38 @@ body {
   font-weight: 700;
   color: #facc15;
 }
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .page-title {
+    font-size: 20px;
+  }
+
+  .hero {
+    height: 70vh;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-btn {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+}
